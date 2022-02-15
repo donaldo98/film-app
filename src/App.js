@@ -25,6 +25,7 @@ function App() {
     setFiltered(movies.results)
   } 
 
+
   return (
     <div className="App">
       <Filter popular={popular} setFiltered={setFiltered} activeGenre={activeGenre} setActiveGenre={setActiveGenre} />
