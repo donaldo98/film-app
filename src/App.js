@@ -1,8 +1,8 @@
 
 import './App.css';
 import { useEffect, useState } from 'react';
-import Movie from './Movie';
-import Filter from './Filter';
+import Movie from './components/Movie';
+import Filter from './components/Filter';
 import { motion, AnimatePresence } from 'framer-motion';
 
 
